@@ -360,6 +360,14 @@ $accent-300: #EFC569;
 $accent-200: #F4D893;
 $accent-100: #F9ECCC;
 $accent-50: #FDF9ED;
+//未增加到顏色的
+$accent-1: #B47131;
+$accent-2: #E8CCA0;
+$accent-3: #F3E6CF;
+$accent-4: #FFE492;
+$accent-5:#FFFFFF;
+$accent-6:#DAAA6A;
+
 
 // // 成功色系 (success/secondary colors)
 // $secondary-950: #101E11;
@@ -396,6 +404,7 @@ $theme-colors: (
   "danger":     $danger,
   "light":      $light,
   "dark":       $dark,
+
 // //客製化顏色
 "neutral-950": $neutral-950,
 "neutral-900": $neutral-900,
@@ -455,7 +464,15 @@ $theme-colors: (
 "accent-300": $accent-300,
 "accent-200": $accent-200,
 "accent-100": $accent-100,
-"accent-50": $accent-50
+"accent-50": $accent-50,
+//未被定義的顏色
+"accent-1":$accent-1,
+"accent-2":$accent-2,
+"accent-3":$accent-3,
+"accent-4":$accent-4,
+"accent-5":$accent-5,
+"accent-6":$accent-6,
+
 
 ) !default;
 
@@ -747,7 +764,7 @@ $aspect-ratios: (
 
 // scss-docs-start font-variables
 // stylelint-disable value-keyword-case
-$font-family-sans-serif:      system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", "Noto Sans", "Liberation Sans", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji" !default;
+$font-family-sans-serif:      Roboto,system-ui, -apple-system, "Segoe UI",  "Helvetica Neue", "Noto Sans", "Liberation Sans", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji" !default;
 $font-family-monospace:       SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace !default;
 // stylelint-enable value-keyword-case
 $font-family-base:            var(--#{$prefix}font-sans-serif) !default;
@@ -1028,8 +1045,10 @@ $form-label-color:                      null !default;
 // scss-docs-end form-label-variables
 
 // scss-docs-start form-input-variables
-$input-padding-y:                       $input-btn-padding-y !default;
-$input-padding-x:                       $input-btn-padding-x !default;
+// $input-padding-y:                       $input-btn-padding-y !default;
+$input-padding-y:                       11.5px !default;
+// $input-padding-x:                       $input-btn-padding-x !default;
+$input-padding-x:                       16px !default;
 $input-font-family:                     $input-btn-font-family !default;
 $input-font-size:                       $input-btn-font-size !default;
 $input-font-weight:                     $font-weight-base !default;
@@ -1043,27 +1062,32 @@ $input-padding-y-lg:                    $input-btn-padding-y-lg !default;
 $input-padding-x-lg:                    $input-btn-padding-x-lg !default;
 $input-font-size-lg:                    $input-btn-font-size-lg !default;
 
-$input-bg:                              var(--#{$prefix}body-bg) !default;
+// $input-bg:                              var(--#{$prefix}body-bg) !default;
+$input-bg:                              transparent  !default;
 $input-disabled-color:                  null !default;
 $input-disabled-bg:                     var(--#{$prefix}secondary-bg) !default;
 $input-disabled-border-color:           null !default;
 
 $input-color:                           var(--#{$prefix}body-color) !default;
-$input-border-color:                    var(--#{$prefix}border-color) !default;
+// $input-border-color:                    var(--#{$prefix}border-color) !default;
+$input-border-color:                    $neutral-700 !default;
 $input-border-width:                    $input-btn-border-width !default;
 $input-box-shadow:                      var(--#{$prefix}box-shadow-inset) !default;
 
-$input-border-radius:                   var(--#{$prefix}border-radius) !default;
+// $input-border-radius:                   var(--#{$prefix}border-radius) !default;
+$input-border-radius:                   8px !default;
 $input-border-radius-sm:                var(--#{$prefix}border-radius-sm) !default;
 $input-border-radius-lg:                var(--#{$prefix}border-radius-lg) !default;
 
 $input-focus-bg:                        $input-bg !default;
 $input-focus-border-color:              tint-color($component-active-bg, 50%) !default;
-$input-focus-color:                     $input-color !default;
+// $input-focus-color:                     $input-color !default;
+$input-focus-color:                     $neutral-700 !default;
 $input-focus-width:                     $input-btn-focus-width !default;
 $input-focus-box-shadow:                $input-btn-focus-box-shadow !default;
 
-$input-placeholder-color:               var(--#{$prefix}secondary-color) !default;
+// $input-placeholder-color:               var(--#{$prefix}secondary-color) !default;
+$input-placeholder-color:               $neutral-400 !default;
 $input-plaintext-color:                 var(--#{$prefix}body-color) !default;
 
 $input-height-border:                   calc(#{$input-border-width} * 2) !default; // stylelint-disable-line function-disallowed-list
