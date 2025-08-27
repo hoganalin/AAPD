@@ -1,0 +1,44 @@
+.rotate-90 {
+  display: inline-block; 
+  transform: rotate(90deg);
+}
+
+
+.bubble-tea-img{
+    width: 16px;
+    height: 16px;
+    fill:#6B4F3C ;
+}
+
+.shadow-big {
+  box-shadow: 0px 4px 0px 0px #2C1F1A;
+}
+
+
+.px-54{
+    padding-left: 54px;
+    padding-right: 54px;
+}
+
+.py-10-5{
+    padding-top: 10.5px;
+    padding-bottom: 10.5px;
+}
+
+
+.mb-10{
+    margin-bottom: 10px;
+}
+
+
+
+
+.tab-bg {
+    width:235px;
+    background-color: $accent-2;
+    border-radius: 50px;
+}
+
+.px-btn{
+    padding:0px 24.75px;
+}
