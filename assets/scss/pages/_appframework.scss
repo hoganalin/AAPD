@@ -25,6 +25,11 @@ body{ margin:0; font-family:Roboto,"Noto Sans TC", system-ui, -apple-system, san
   .wrapper{ padding:5% 0; }
 }
 
+@media (max-width:576px){
+  .wrapper{ padding:0; }
+}
+
+
 
 /* 外框尺寸 = 螢幕 + 兩側邊厚 */
 .app-wrapper{
