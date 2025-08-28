@@ -1,6 +1,21 @@
 .footer{
-&-function{
-  width: 20%;
-}
+&-functions{
+  align-items: center;
+  padding-top: 0.25rem;
+  padding-bottom: 0.25rem;
 
 }
+&-function{
+  width: 20%;
+
+}
+&-active{
+  // transition: transform 0.1s,transform-origin 0.1s;
+  transform: scale(1.87, 1.87);
+transform-origin: bottom center
+  }  
+}
+// &:hover{
+// transform: scale(1.87, 1.87);
+// transform-origin: bottom center
+//   }
