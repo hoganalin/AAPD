@@ -62,7 +62,7 @@ body{ margin:0; font-family:Roboto,"Noto Sans TC", system-ui, -apple-system, san
   display:flex;
   align-items:center; 
   justify-content:space-between;
-  padding: 6px 14px;
+  padding: 16px 16px;
   position: sticky;       /* 變更 */
   top: 0;                 /* 變更 */
   z-index: 5;             /* 變更 */
@@ -89,7 +89,7 @@ body{ margin:0; font-family:Roboto,"Noto Sans TC", system-ui, -apple-system, san
   }
   .notch{ display:none; }
   .app-content{ border-radius:0; }
-  .status-bar{padding: 20px 16px; position: relative;}
+  .status-bar{padding: 16px 16px; position: relative;}
 }
 
 
