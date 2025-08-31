@@ -316,10 +316,10 @@ $base-900:      #7C3212;
 $base-800:      #9A3A12;
 $base-700:      #C2490C;
 $base-600:      #EA610C;
-$base-500:      #F97D16;
+$base-500:      #B47131;
 $base-400:      #FC9A3B;
 $base-300:      #FEC073;
-$base-200:      #FEDBAA;
+$base-200:      #E8CCA0;
 $base-100:      #FFEFD5;
 $base-50:       #FFF5E6;
 
@@ -388,7 +388,7 @@ $secondary:     $secondary-700;//$gray-600 !default; custom
 $success:       $secondary-700;//$green !default; custom
 $info:          $cyan !default;
 $warning:       $yellow !default;
-$danger:        $red !default;
+$danger:        $primary-700; //$red !default; custom
 $light:         $gray-100 !default;
 $dark:          $gray-900 !default;
 // scss-docs-end theme-color-variables
@@ -700,7 +700,7 @@ $border-widths: (
   5: 5px
 ) !default;
 $border-style:                solid !default;
-$border-color:                $gray-300 !default;
+$border-color:                $neutral-950;//$gray-300 !default; //custom
 $border-color-translucent:    rgba($black, .175) !default;
 // scss-docs-end border-variables
 
@@ -717,10 +717,10 @@ $border-radius-2xl:           $border-radius-xxl !default; // Deprecated in v5.3
 // fusv-enable
 
 // scss-docs-start box-shadow-variables
-$box-shadow:                  0 .5rem 1rem rgba($black, .15) !default;
-$box-shadow-sm:               0 .125rem .25rem rgba($black, .075) !default;
-$box-shadow-lg:               0 1rem 3rem rgba($black, .175) !default;
-$box-shadow-inset:            inset 0 1px 2px rgba($black, .075) !default;
+$box-shadow:                  0 .5rem 1rem rgba($neutral-950, .15) !default;
+$box-shadow-sm:               0 .125rem .25rem rgba($neutral-950, .075) !default;
+$box-shadow-lg:               0 1rem 3rem rgba($neutral-950, .175) !default;
+$box-shadow-inset:            inset 0 1px 2px rgba($neutral-950, .075) !default;
 // scss-docs-end box-shadow-variables
 
 $component-active-color:      $white !default;

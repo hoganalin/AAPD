@@ -14,3 +14,58 @@
   font-size: 14px;   
   font-weight: 500;
 }
+
+
+//開個話題用
+ .topic-container {
+           
+        }
+        
+        .topic-header {
+            
+            font-weight: 500;
+           
+            font-size: 14px;
+        }
+        
+        .required-mark {
+           
+        }
+        
+        .topic-input {
+            border: none;
+            background: transparent;
+            font-size: 1.25rem;
+            color: #2C1F1A;
+            padding: 8px 0;
+        }
+        
+        .topic-input:focus {
+            outline: none;
+            border: none;
+            box-shadow: none;
+            background: transparent;
+            color: #2C1F1A;
+        }
+        
+        .topic-input::placeholder {
+            color: #AB8F65;
+        }
+        
+        .placeholder-text {
+            position: absolute;
+            top: 50%;
+            left: 8px;
+            transform: translateY(-50%);
+            pointer-events: none;
+            color: #AB8F65;
+        }
+        
+        .main-text {
+            font-size: 1.25rem;
+        }
+        
+        .counter-text {
+            font-size: 0.75rem;
+            margin-left: 4px;
+        }

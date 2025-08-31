@@ -1,0 +1,39 @@
+
+    .icon-locate{
+ font-size: 16px;   /* 控制寬高 */
+//   line-height: 1;    /* 避免上下多餘空隙 */
+  display: inline-flex; 
+  align-items: center;
+//   justify-content: center;
+  width: 16px;
+  height: 16px;
+    }
+    
+.newtopic-cardtitle{
+  position:relative;
+}
+.closecard{
+  position:absolute;
+  top: 0;
+  right: -8px;
+  width: 24px;
+  height: 24px;
+  color: white;
+}
+
+.sceney-card{
+  position: relative;
+  img{
+    height: 100%;
+    width: 167.86px;
+  }
+}
+.closeSceneyCard{
+height: 24px;
+width: 24px;
+position: absolute;
+top: 20px; 
+left: 153px;
+color: white;
+// border: 1px solid black;
+}
