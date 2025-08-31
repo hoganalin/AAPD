@@ -202,7 +202,8 @@
                   </div>
                 </div>
               </section>
-              <footer class="footer">
+            </main>
+                          <footer class="footer">
                 <div>
                   <!-- <div class="mx-4"> -->
                   <!-- 各種功能 -->
@@ -269,15 +270,22 @@
                   </div>
                 </div>
                 <!-- 編輯按鈕 -->
-                <button class="edit-btn btn btn-primary rounded-circle">
+                <button class="edit-btn btn btn-primary rounded-circle" >
                  <span class="material-symbols-outlined"> edit_square </span>
                 </button> 
+                <!-- 發文成功通知 -->
+                 <button
+                    type="button"
+                    class="post-success-msg btn text-accent-950  rounded-pill btn-accent-300 w-100"
+                    id="postSuccessMsg"
+                  >
+                    發文成功
+                  </button>
                 
                 
              
                 </style>
               </footer>
-            </main>
           </div>
 
           <!-- 實際內容畫面，內容寫到這 -->
@@ -288,5 +296,7 @@
       </div>
     </div>
     <script type="module" src="../main.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"></script>
+    <script src="/js/postmessageSuccess.js"></script>
   </body>
 </html>
