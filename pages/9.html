@@ -41,8 +41,13 @@
                     <img src="/assets/images/7/magic-hat-green.png" alt="magic-hat" class="me-2" style="height: 20px;width: 20px;">
                     選擇你的專屬話題
               </span>
-              <div class="form-floating mb-8">
-                  <textarea class="form-control pt-3 ps-4" placeholder="Leave a comment here" id="topic" style="height: 120px" maxlength="100">嗨嗨我是Jerry</textarea>
+              <div class="mb-8">
+                    <div class="textarea-wrapper">
+                        <textarea  class="form-control"  placeholder=""  id="topic" style="height: 120px"  maxlength="100">嗨嗨我是Jerry</textarea>
+                        <div class="char-counter-inside">
+                            <span id="charCount">0</span>/100
+                        </div>
+                    </div>
                   <!-- <label for="shortgoal" class="text-neutral-700 fs-8 fw-medium word-bg"></label> -->
               </div>
               <div class="mb-35">
@@ -56,5 +61,6 @@
       </div>
     </div>
     <script type="module" src="../main.js"></script>
+        <script type="text/javascript" src="/js/9.js"></script>
   </body>
 </html>
