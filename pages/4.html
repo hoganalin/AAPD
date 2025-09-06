@@ -1,142 +1,198 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
+  <head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-    <link href="https://fonts.googleapis.com/icon?family=Material+Icons+Outlined" rel="stylesheet">
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" />
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <link
+      href="https://fonts.googleapis.com/icon?family=Material+Icons+Outlined"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined"
+    />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
 
     <title>4</title>
-</head>
+  </head>
 
-<body>
+  <body>
     <!-- <%- include('./layout/header'); -%> -->
     <div class="wrapper">
-        <div class="app-wrapper">
-            <!-- 手機外框 -->
-            <section class="app-content">
-                <div class="status-bar">
-                    <div class="iphone-time"><time datetime="09:41">9:41</time></div>
-                    <div class="notch" aria-hidden="true"><img src="/assets/images/icon-notch-6341937a.svg" alt="status"
-                            height="30"></div>
-                    <div class="iphone-status">
-                        <img src="/assets/images/icon-status-650aa77e.svg" alt="status" height="13">
-                    </div>
-                </div>
+      <div class="app-wrapper">
+        <!-- 手機外框 -->
+        <section class="app-content">
+          <div class="status-bar">
+            <div class="iphone-time"><time datetime="09:41">9:41</time></div>
+            <div class="notch" aria-hidden="true">
+              <img
+                src="/assets/images/icon-notch-6341937a.svg"
+                alt="status"
+                height="30"
+              />
+            </div>
+            <div class="iphone-status">
+              <img
+                src="/assets/images/icon-status-650aa77e.svg"
+                alt="status"
+                height="13"
+              />
+            </div>
+          </div>
 
-                <!-- 實際內容畫面，內容寫在這 -->
-                <div class="container p-4">
-                    <header class="d-flex justify-content-between py-4 text-neutral-800 fw-bold align-items-center">
-                        <span class="material-icons-outlined">
-                            chevron_left
-                        </span>
-                        <span class="fs-5">編輯看板</span>
-                        <a class="btn-topic" href="#" role="button">預覽</a>
-                    </header>
-                    <!-- 上方nav -->
-                    <div class="mb-4">
-                        <div class="tab-switch d-flex w-100 rounded-pill p-2">
-                            <button class="tab-item flex-fill active rounded-pill fw-bold">招牌看板</button>
-                            <button class="tab-item flex-fill rounded-pill fw-bold">圖片看板</button>
-                        </div>
-                    </div>
-                    <div class="d-flex justify-content-center mb-4">
-                        <div class="kanbanImg text-accent-4 position-relative">
-                            <p class="fw-bold pt-5">徵旅伴去波蘭啦～<br />～～</p>
-                            <img class="position-absolute text-1" src="/assets/images/4/sticker-1.png" alt="熱">
-                            <img class="position-absolute text-2" src="/assets/images/4/sticker-2.png" alt="烈">
-                            <img class="position-absolute text-3" src="/assets/images/4/sticker-3.png" alt="徵">
-                            <img class="position-absolute text-4" src="/assets/images/4/sticker-4.png" alt="求">
-                        </div>
-                    </div>
-                    <!-- 中間ICON -->
-                    <div class="d-flex gap-4 justify-content-center mb-56">
-                        <div class="kanbanIcon d-flex justify-content-center bg-accent-2">
-                            <div
-                                class="d-flex flex-column align-items-center justify-content-center text-neutral-700 fs-8 fw-bold">
-                                <img class="pb-1" src="/assets/images/4/sign.png" alt="sign">
-                                <p>造型</p>
-                            </div>
-                        </div>
-                        <div class="kanbanIcon d-flex justify-content-center bg-accent-2">
-                            <div
-                                class="d-flex flex-column align-items-center justify-content-center text-neutral-700 fs-8 fw-bold">
-                                <span class="material-symbols-outlined">
-                                    font_download
-                                </span>
-                                <p>文字</p>
-                            </div>
-                        </div>
-                        <div class="kanbanIcon d-flex justify-content-center bg-secondary-700">
-                            <div
-                                class="d-flex flex-column align-items-center justify-content-center text-accent-6 fs-8 fw-bold">
-                                <img class="pb-1" src="/assets/images/4/sticker.png" alt="sign">
-                                <p>貼圖</p>
-                            </div>
-                        </div>
-                    </div>
+          <!-- 實際內容畫面，內容寫在這 -->
+          <div class="container p-4">
+            <header
+              class="d-flex justify-content-between py-4 text-neutral-800 fw-bold align-items-center"
+            >
+              <a href="3.html"
+                ><span class="material-icons-outlined text-neutral-700 fs-2">
+                  chevron_left
+                </span></a
+              >
+              <span class="fs-5">編輯看板</span>
+              <a class="btn-topic" href="5.html" role="button">預覽</a>
+            </header>
+            <!-- 上方nav -->
+            <div class="mb-4">
+              <div class="tab-switch d-flex w-100 rounded-pill p-2">
+                <button class="tab-item flex-fill active rounded-pill fw-bold">
+                  招牌看板
+                </button>
+                <button class="tab-item flex-fill rounded-pill fw-bold">
+                  圖片看板
+                </button>
+              </div>
+            </div>
+            <div class="d-flex justify-content-center mb-4">
+              <div class="kanbanImg text-accent-4 position-relative">
+                <p class="fw-bold pt-5">徵旅伴去波蘭啦～<br />～～</p>
+                <img
+                  class="position-absolute text-1"
+                  src="/assets/images/4/sticker-1.png"
+                  alt="熱"
+                />
+                <img
+                  class="position-absolute text-2"
+                  src="/assets/images/4/sticker-2.png"
+                  alt="烈"
+                />
+                <img
+                  class="position-absolute text-3"
+                  src="/assets/images/4/sticker-3.png"
+                  alt="徵"
+                />
+                <img
+                  class="position-absolute text-4"
+                  src="/assets/images/4/sticker-4.png"
+                  alt="求"
+                />
+              </div>
+            </div>
+            <!-- 中間ICON -->
+            <div class="d-flex gap-4 justify-content-center mb-56">
+              <div class="kanbanIcon d-flex justify-content-center bg-accent-2">
+                <div
+                  class="d-flex flex-column align-items-center justify-content-center text-neutral-700 fs-8 fw-bold"
+                >
+                  <img
+                    class="pb-1"
+                    src="/assets/images/4/sign.png"
+                    alt="sign"
+                  />
+                  <p>造型</p>
                 </div>
-                <!-- 下方文字ICON -->
-                <div class="d-flex pt-44 bg-accent-3 ps-6 flex-column">
-                    <div class="flex-nowrap d-flex mb-4">
-                        <span class="circle-icon-green">伴</span>
-                        <span class="circle-icon-green">旅</span>
-                        <span class="circle-icon-green">讚</span>
-                        <span class="circle-icon-green">早</span>
-                        <span class="circle-icon-green">午</span>
-                        <span class="circle-icon-green">晚</span>
-                        <span class="circle-icon-green">安</span>
-                    </div>
-                    <div class="flex-nowrap d-flex mb-4">
-                        <span class="circle-icon-pink">伴</span>
-                        <span class="circle-icon-pink">旅</span>
-                        <span class="circle-icon-pink">讚</span>
-                        <span class="circle-icon-pink">早</span>
-                        <span class="circle-icon-pink">午</span>
-                        <span class="circle-icon-pink">晚</span>
-                        <span class="circle-icon-pink">安</span>
-                    </div>
-                    <div class="flex-nowrap d-flex mb-4">
-                        <span class="circle-icon-brown">伴</span>
-                        <span class="circle-icon-brown">旅</span>
-                        <span class="circle-icon-brown">讚</span>
-                        <span class="circle-icon-brown">早</span>
-                        <span class="circle-icon-brown">午</span>
-                        <span class="circle-icon-brown">晚</span>
-                        <span class="circle-icon-brown">安</span>
-                    </div>
-                    <div class="flex-nowrap d-flex mb-4">
-                        <span class="circle-icon-yellow">伴</span>
-                        <span class="circle-icon-yellow">旅</span>
-                        <span class="circle-icon-yellow">讚</span>
-                        <span class="circle-icon-yellow">早</span>
-                        <span class="circle-icon-yellow">午</span>
-                        <span class="circle-icon-yellow">晚</span>
-                        <span class="circle-icon-yellow">安</span>
-                    </div>
-                    <div class="flex-nowrap d-flex mb-4">
-                        <span class="circle-icon-white">伴</span>
-                        <span class="circle-icon-white">旅</span>
-                        <span class="circle-icon-white">讚</span>
-                        <span class="circle-icon-white">早</span>
-                        <span class="circle-icon-white">午</span>
-                        <span class="circle-icon-white">晚</span>
-                        <span class="circle-icon-white">安</span>
-                    </div>
+              </div>
+              <div class="kanbanIcon d-flex justify-content-center bg-accent-2">
+                <div
+                  class="d-flex flex-column align-items-center justify-content-center text-neutral-700 fs-8 fw-bold"
+                >
+                  <span class="material-symbols-outlined"> font_download </span>
+                  <p>文字</p>
                 </div>
-                <!-- 實際內容畫面，內容寫到這 -->
-                <div class="homeindicator">
-                    <div class="indicator "></div>
+              </div>
+              <div
+                class="kanbanIcon d-flex justify-content-center bg-secondary-700"
+              >
+                <div
+                  class="d-flex flex-column align-items-center justify-content-center text-accent-6 fs-8 fw-bold"
+                >
+                  <img
+                    class="pb-1"
+                    src="/assets/images/4/sticker.png"
+                    alt="sign"
+                  />
+                  <p>貼圖</p>
                 </div>
-            </section>
-        </div>
+              </div>
+            </div>
+          </div>
+          <!-- 下方文字ICON -->
+          <div
+            class="d-flex pt-44 bg-accent-3 ps-6 flex-column align-items-center"
+          >
+            <div class="flex-nowrap d-flex mb-4">
+              <span class="circle-icon-green">伴</span>
+              <span class="circle-icon-green">旅</span>
+              <span class="circle-icon-green">讚</span>
+              <span class="circle-icon-green">早</span>
+              <span class="circle-icon-green">午</span>
+              <span class="circle-icon-green">晚</span>
+              <span class="circle-icon-green">安</span>
+            </div>
+            <div class="flex-nowrap d-flex mb-4">
+              <span class="circle-icon-pink">伴</span>
+              <span class="circle-icon-pink">旅</span>
+              <span class="circle-icon-pink">讚</span>
+              <span class="circle-icon-pink">早</span>
+              <span class="circle-icon-pink">午</span>
+              <span class="circle-icon-pink">晚</span>
+              <span class="circle-icon-pink">安</span>
+            </div>
+            <div class="flex-nowrap d-flex mb-4">
+              <span class="circle-icon-brown">伴</span>
+              <span class="circle-icon-brown">旅</span>
+              <span class="circle-icon-brown">讚</span>
+              <span class="circle-icon-brown">早</span>
+              <span class="circle-icon-brown">午</span>
+              <span class="circle-icon-brown">晚</span>
+              <span class="circle-icon-brown">安</span>
+            </div>
+            <div class="flex-nowrap d-flex mb-4">
+              <span class="circle-icon-yellow">伴</span>
+              <span class="circle-icon-yellow">旅</span>
+              <span class="circle-icon-yellow">讚</span>
+              <span class="circle-icon-yellow">早</span>
+              <span class="circle-icon-yellow">午</span>
+              <span class="circle-icon-yellow">晚</span>
+              <span class="circle-icon-yellow">安</span>
+            </div>
+            <div class="flex-nowrap d-flex mb-4">
+              <span class="circle-icon-white">伴</span>
+              <span class="circle-icon-white">旅</span>
+              <span class="circle-icon-white">讚</span>
+              <span class="circle-icon-white">早</span>
+              <span class="circle-icon-white">午</span>
+              <span class="circle-icon-white">晚</span>
+              <span class="circle-icon-white">安</span>
+            </div>
+          </div>
+          <!-- 實際內容畫面，內容寫到這 -->
+          <div class="homeindicator">
+            <div class="indicator"></div>
+          </div>
+        </section>
+      </div>
     </div>
     <script type="module" src="../main.js"></script>
-</body>
-
+  </body>
 </html>

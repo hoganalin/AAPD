@@ -3,102 +3,70 @@
 
 // }
 
-
-.py-12{
-    padding: 12px 0px ;
+.py-12 {
+  padding: 12px 0px;
 }
 
-.keyboard{
-    width: 100%;
-
+.keyboard {
+  width: 100%;
 }
 
-.mb-35{
-    margin-bottom: 35px;
+.mb-35 {
+  margin-bottom: 35px;
 }
 
-.mb-31-93{
-    margin-bottom: 31.93px;
-}
-
-.match-wrapper {
-    position: relative;      /* 讓內部的絕對定位參考這個容器 */
-    display: flex;
-    justify-content: center; /* 水平置中 */
-    margin-bottom: 149px;     /* 預留 footer 間距 */
-}
-
-
-.match-img{
-    width: 100%;
-    height: auto;
-}
-
-.bubbo-img{
-    position: absolute;
-    top: 195.03px; /* 向下疊出來一點 */
-    left: 50%;
-    transform: translateX(-50%);
-    width: 348px;  /* 可以調整大小 */
-}
-
-
-.common-area{
-    height:188px ;
+.mb-31-93 {
+  margin-bottom: 31.93px;
 }
 
 
 
-.text-absolute{
-    padding:0px 10px ;
-    background-color:#FAF5EC ;
-    position: absolute;
-    top: -8px;
-    left:27.5px; 
+
+
+
+
+.common-area {
+  height: 188px;
 }
 
 
-.p-span{
-    padding: 1px 12px;
+
+.p-span {
+  padding: 1px 12px;
 }
 
-.us-absolute{
-    position: absolute;
-    top: 27.93px;
-    left:38px; 
+.us-absolute {
+  position: absolute;
+  top: 27.93px;
+  left: 38px;
 }
 
-
-.usa-absolute{
-    position: absolute;
-    top: 27.66px;
-    left:232px; 
+.usa-absolute {
+  position: absolute;
+  top: 27.66px;
+  left: 232px;
 }
 
-
-.travel-absolute{
-    position: absolute;
-    top: 67.93px;
-    left:151px; 
+.travel-absolute {
+  position: absolute;
+  top: 67.93px;
+  left: 151px;
 }
 
-
-.coffee-absolute{
-    position: absolute;
-    top: 99.93px;
-    left:18px; 
+.coffee-absolute {
+  position: absolute;
+  top: 99.93px;
+  left: 18px;
 }
 
-
-.lodon-absolute{
-    position: absolute;
-    top: 139.93px;
-    left:151px; 
+.lodon-absolute {
+  position: absolute;
+  top: 139.93px;
+  left: 151px;
 }
 
-
-.europe-absolute{
-    position: absolute;
-    top: 107.66px;
-    left:254px; 
+.europe-absolute {
+  position: absolute;
+  top: 107.66px;
+  left: 254px;
 }

@@ -1,0 +1,31 @@
+.text-absolute {
+  padding: 0px 10px;
+  background-color: #faf5ec;
+  position: absolute;
+  top: -8px;
+  left: 50%; /* 水平中點 */
+  transform: translateX(-50%); /* 修正偏移，使整段置中 */
+  text-align: center; /* 文字置中 */
+  width: auto; /* 或者設定寬度 */
+  white-space: nowrap;
+}
+
+
+.bubbo-img {
+  position: absolute;
+  top: 200px; /* 向下疊出來一點 */
+  left: 50%;
+  transform: translateX(-50%);
+  width: 348px; /* 可以調整大小 */
+}
+
+.match-img {
+  width: 100%;
+  height: auto;
+}
+.match-wrapper {
+  position: relative; /* 讓內部的絕對定位參考這個容器 */
+  display: flex;
+  justify-content: center; /* 水平置中 */
+  margin-bottom: 149px; /* 預留 footer 間距 */
+}
