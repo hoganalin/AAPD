@@ -57,6 +57,10 @@
 .flip-card.flipped .flip-card-inner {
   transform: rotateY(180deg);
 }
+
+
+
+
 .back-content {
   height: 100%; /* 滾動區填滿父容器 */
   overflow-y: auto;
@@ -90,8 +94,8 @@
 }
 
 
-.mt-18{
-    margin-top: 18px;
+.mb-18{
+    margin-bottom: 18px;
 }
 
 .mb-38{

@@ -25,54 +25,6 @@
 
 
 
-.common-area {
-  height: 188px;
-}
-
-
-
-.p-span {
-  padding: 1px 12px;
-}
-
-.us-absolute {
-  position: absolute;
-  top: 27.93px;
-  left: 38px;
-}
-
-.usa-absolute {
-  position: absolute;
-  top: 27.66px;
-  left: 232px;
-}
-
-.travel-absolute {
-  position: absolute;
-  top: 67.93px;
-  left: 151px;
-}
-
-.coffee-absolute {
-  position: absolute;
-  top: 99.93px;
-  left: 18px;
-}
-
-.lodon-absolute {
-  position: absolute;
-  top: 139.93px;
-  left: 151px;
-}
-
-.europe-absolute {
-  position: absolute;
-  top: 107.66px;
-  left: 254px;
-}
-
-
-
 
 /* ===== 輸入框狀態樣式 ===== */
 .textarea-wrapper {
@@ -81,7 +33,7 @@
 
 .form-control {
   background: #faf5ec;
-  border: 1px solid $neutral-300;
+  border: 2px solid $neutral-300;
   transition: background-color .15s ease, border-color .15s ease, box-shadow .15s ease;
 
   &::placeholder { color: $neutral-400; }
