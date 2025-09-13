@@ -12,13 +12,48 @@
 .newtopic-cardtitle{
   position:relative;
 }
-.closecard{
-  position:absolute;
-  top: 0;
-  right: -8px;
+.closecard {
+  position: absolute;
+  top: -12px;       
+  right: 4px;        
   width: 24px;
   height: 24px;
-  color: white;
+  padding: 4px;    
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  border: 0;
+  cursor: pointer;
+  background-color: #007bff;
+}
+
+.closecard .material-symbols-outlined {
+  font-size: 16px;
+  color: #fff;
+  line-height: 1;
+}
+
+.imgCloseCard{
+  position: absolute;
+  top: 8px;       
+  right: 8px;        
+  width: 24px;
+  height: 24px;
+  padding: 4px;      
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  border: 0;
+  cursor: pointer;
+  background-color: #007bff; 
+
+}
+.imgCloseCard .material-symbols-outlined {
+  font-size: 16px;
+  color: #fff;
+  line-height: 1;
 }
 
 .sceney-card{
@@ -36,4 +71,9 @@ top: 20px;
 left: 153px;
 color: white;
 // border: 1px solid black;
+}
+
+.icon-sm{
+  width: 16px;
+  height: 16px;
 }

@@ -46,7 +46,8 @@ body{ margin:0; font-family:Roboto,"Noto Sans TC", system-ui, -apple-system, san
 
 .app-content{
   position:relative;
-  width:100%; height:100%;
+  width:100%; 
+  height:100%;
   background:#FAF5EC;                 /* 你的 App 背景 */
   border-radius: var(--screen-radius);
   overflow: hidden;
