@@ -60,3 +60,26 @@
   font-size: 0.75rem;
   margin-left: 4px;
 }
+
+//disabled
+a.btn.btn-topic.disabled {
+  pointer-events: none; /* 讓它不能被點擊 */
+  color: $primary-200;
+  cursor: not-allowed;
+  background-color: $primary-300; /* 滑鼠移上去顯示禁止符號 */
+}
+
+
+.TopicBox{
+  border: none;
+  background: transparent;
+  color: $neutral-400;
+  font-size: 20px;
+  outline: none;
+  font-weight: 700;
+}
+.TopicBox::placeholder {
+  color: $neutral-400;
+  opacity: 1; 
+  font-weight: 700;
+}

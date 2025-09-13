@@ -56,22 +56,36 @@
               class="d-flex justify-content-between py-4 text-neutral-800 fw-bold align-items-center"
             >
               <a href="index.html"
-                ><span class="material-icons-outlined text-neutral-700 fs-2">
+                ><span
+                  class="material-icons-outlined text-neutral-700 fs-4 py-3 pe-3"
+                >
                   chevron_left
                 </span></a
               >
               <span class="fs-5">新話題</span>
-              <a class="btn-topic" href="#" role="button">下一步</a>
+              <a class="btn btn-topic disabled" href="#" role="button"
+                >下一步</a
+              >
             </header>
             <main class="gap-4">
               <!-- 上方話題 -->
-              <div class="topic-container">
-                <p class="text-neutral-800 fw-bold mb-2">
-                  話題<span class="ps-2 fs-9 text-neutral-400">(必填)</span>
-                </p>
-                <p class="text-neutral-400 fs-5 fw-bold mb-4">
-                  開個話題吧～～<span class="fs-9 fw-medium">(0/15)</span>
-                </p>
+              <div class="topic-container mb-4  position-relative">
+                <label for="topic-input" class="fw-bold text-neutral-700 mb-2">
+                  話題文字
+                </label>
+                <input
+                  type="text"
+                  id="topic-input"
+                  class="TopicBox w-100"
+                  maxlength="15"
+                  placeholder="開個話題吧～～"
+                />
+                <div
+                  id="topic-count"
+                  class="text-end position-absolute bottom-0 me-3 mb-2 fs-9 text-neutral-400 fw-medium" style="left:144px"
+                >
+                  0/15
+                </div>
               </div>
               <!-- 中間兩個input -->
               <div>
