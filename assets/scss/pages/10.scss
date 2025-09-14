@@ -8,8 +8,8 @@
   left: 50%; /* 水平中點 */
   transform: translateX(-50%); /* 修正偏移，使整段置中 */
   text-align: center; /* 文字置中 */
-  width: auto; /* 或者設定寬度 */
-  white-space: nowrap;
+  width: 80%; /* 或者設定寬度 */
+
 }
 
 
@@ -67,7 +67,7 @@
 
 
 .p-span.animate__animated {
-   --animate-duration: 0.6s; }  
+   --animate-duration: 0.3s; }  
 
 
 
