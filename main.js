@@ -6,13 +6,13 @@ console.log('Hello world');
 const flipCard = document.querySelector('.flip-card');
 
 flipCard.addEventListener('touchend', (e) => {
+  e.stopPropagation();
   flipCard.classList.toggle('flipped');
-  console.log("mouse down",e);
 });
 
 flipCard.addEventListener('mouseup', (e) => {
+  e.stopPropagation();
   flipCard.classList.toggle('flipped');
-  console.log("mouse up",e);
 });
 
 
