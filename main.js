@@ -16,6 +16,7 @@ flipCard.addEventListener('mouseup', (e) => {
 });
 
 
+
 //2 開個話題
 const topicInput = document.getElementById("topic-input");
 const topicCount = document.getElementById("topic-count");
