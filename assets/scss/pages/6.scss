@@ -1,36 +1,5 @@
-.post-success-msg  {
-    font-weight: bold;
-    position: absolute;
-    top: -74px;  // 距離 footer 頂部上方 40px
-    // left: 0.875rem;
-    // right: 0.875rem;
-    z-index: 11;
-    // opacity: 0;
-    // visibility: hidden;
+.toast-text{
+    bottom: 50%;
+padding-top: 8px;
+padding-bottom: 8px;
     }
-// }
-
-// .post-success-msg.show {
-//   animation: showMessage 1.3s ease-in-out;
-// }
-
-// @keyframes showMessage {
-//   0% { 
-//     opacity: 0; 
-//     visibility: hidden; 
-//     transform: translate(-50%, -50%) scale(0.8); 
-//   }
-//   20% { 
-//     opacity: 1; 
-//     visibility: visible; 
-//     transform: translate(-50%, -50%) scale(1); 
-//   }
-//   80% { 
-//     opacity: 1; 
-//     transform: translate(-50%, -50%) scale(1); 
-//   }
-//   100% { 
-//     opacity: 0; 
-//     transform: translate(-50%, -50%) scale(0.8); 
-//   }
-// }
