@@ -5,8 +5,14 @@ console.log('Hello world');
 
 const flipCard = document.querySelector('.flip-card');
 
-flipCard.addEventListener('click', () => {
+flipCard.addEventListener('mousedown', (e) => {
+  // flipCard.classList.toggle('flipped');
+  console.log("mouse down",e);
+});
+
+flipCard.addEventListener('mouseup', (e) => {
   flipCard.classList.toggle('flipped');
+  console.log("mouse up",e);
 });
 
 

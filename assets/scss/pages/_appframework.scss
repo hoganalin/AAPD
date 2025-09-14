@@ -121,3 +121,10 @@ body{ margin:0; font-family:Roboto,"Noto Sans TC", system-ui, -apple-system, san
 
 }
 
+.app-content {
+  &.test {
+    .homeindicator {
+      background: $accent-3;
+    }
+  }
+}
