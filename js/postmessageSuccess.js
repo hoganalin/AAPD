@@ -1,8 +1,4 @@
-<<<<<<< HEAD
 // const msgsucess =document.querySelector(".post-success-msg");
-=======
-const msgsucess =document.querySelector(".post-success-msg");
->>>>>>> 45fec1094dee394a48c2aad5ec228152f8bfc46e
 // gsap.fromTo(msgsucess, 
 //     // 起點狀態
 //     {
@@ -19,7 +15,6 @@ const msgsucess =document.querySelector(".post-success-msg");
 //         // backgroundColor: "yellow"
 //     }
 // );
-<<<<<<< HEAD
 // let tl = gsap.timeline({delay:1});
 //   tl.to(msgsucess, {  opacity: 1, duration: 1})   // 透明 → 實心
 //     .to(msgsucess, { opacity: 0, duration: 1 });  // 實心 → 透明
@@ -45,8 +40,3 @@ if (toastTrigger) {
     toast.show()
   })
 }
-=======
-let tl = gsap.timeline({delay:1});
-  tl.to(msgsucess, {  opacity: 1, duration: 1})   // 透明 → 實心
-    .to(msgsucess, { opacity: 0, duration: 1 });  // 實心 → 透明
->>>>>>> 45fec1094dee394a48c2aad5ec228152f8bfc46e
