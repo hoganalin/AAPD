@@ -23,4 +23,8 @@ const topicCount = document.getElementById("topic-count");
 topicInput.addEventListener("input", () => {
   const len = topicInput.value.length;
   topicCount.textContent = `${len}/15`;
+<<<<<<< HEAD
 });
+=======
+});
+>>>>>>> 45fec1094dee394a48c2aad5ec228152f8bfc46e
