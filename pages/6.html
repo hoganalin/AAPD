@@ -559,9 +559,24 @@
         </section>
       </div>
     </div>
-    <script type="module" src="../main.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"></script>
-    <script src="/js/postmessageSuccess.js"></script>
+    <script type="module" src="../main.js"></script>
+    <script>
+      document.addEventListener("DOMContentLoaded", () => {
+        // 檢查 URL 是否包含 ?post=success 參數
+        const urlParams = new URLSearchParams(window.location.search);
+        const postStatus = urlParams.get("post");
+
+        // 如果參數存在且為 success，才顯示 Toast
+        if (postStatus === "success") {
+          const toastEl = document.getElementById("postSuccessMsg");
+          if (toastEl) {
+            const toast = new bootstrap.Toast(toastEl);
+            toast.show();
+          }
+        }
+      });
+    </script>
   </body>
 </html>
