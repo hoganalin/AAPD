@@ -65,9 +65,14 @@
 }
 
 
+.stage { 
+  --stagger: 0.3s;          /* 每顆間隔時間 */
+}
 
 .p-span.animate__animated {
-   --animate-duration: 0.3s; }  
+  --animate-duration: 0.3s; 
+   animation-delay: calc(var(--i, 0) * var(--stagger));
+  }  
 
 
 
