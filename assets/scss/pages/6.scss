@@ -1,36 +1,22 @@
-.post-success-msg  {
-    font-weight: bold;
-    position: absolute;
-    top: -74px;  // 距離 footer 頂部上方 40px
-    // left: 0.875rem;
-    // right: 0.875rem;
-    z-index: 11;
-    // opacity: 0;
-    // visibility: hidden;
+#postSuccessMsg {
+  background-color: transparent !important; /* 移除預設白色背景 */
+  border: none !important; /* 移除預設邊框 */
+  box-shadow: none !important; /* 移除預設陰影 */
+  padding: 0 !important; /* 移除預設內距 */
+}
+.toast-text{
+    width: 343px;
+    bottom: 50%;
+padding-top: 8px;
+padding-bottom: 8px;
     }
-// }
 
-// .post-success-msg.show {
-//   animation: showMessage 1.3s ease-in-out;
-// }
-
-// @keyframes showMessage {
-//   0% { 
-//     opacity: 0; 
-//     visibility: hidden; 
-//     transform: translate(-50%, -50%) scale(0.8); 
-//   }
-//   20% { 
-//     opacity: 1; 
-//     visibility: visible; 
-//     transform: translate(-50%, -50%) scale(1); 
-//   }
-//   80% { 
-//     opacity: 1; 
-//     transform: translate(-50%, -50%) scale(1); 
-//   }
-//   100% { 
-//     opacity: 0; 
-//     transform: translate(-50%, -50%) scale(0.8); 
-//   }
-// }
+.toast-container {
+  z-index: 1055; /* 確保在最上層 */
+  pointer-events: none; /* 不阻擋其他元素的點擊 */
+  bottom: 102px;
+  left:8px;
+}
+.app-content{
+    border: 1px solid red;
+}

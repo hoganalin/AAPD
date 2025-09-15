@@ -56,11 +56,15 @@
   line-height: 1;
 }
 
-.sceney-card{
+.sceney-card {
   position: relative;
-  img{
-    height: 100%;
+  border-radius: 3.88px;
+
+  img {
     width: 167.86px;
+    height: 100%;
+    border-radius: 3.88px; // 圖片本身也加圓角，雙保險
+    display: block;      // 避免 inline-img 留白
   }
 }
 .closeSceneyCard{

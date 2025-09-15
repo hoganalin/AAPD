@@ -10,6 +10,7 @@
   margin: 0;
   text-decoration: none;
 }
+
 .form-control::placeholder {
   font-size: 14px;
   font-weight: 500;
@@ -63,14 +64,16 @@
 
 //disabled
 a.btn.btn-topic.disabled {
-  pointer-events: none; /* 讓它不能被點擊 */
+  pointer-events: none;
+  /* 讓它不能被點擊 */
   color: $primary-200;
   cursor: not-allowed;
-  background-color: $primary-300; /* 滑鼠移上去顯示禁止符號 */
+  background-color: $primary-300;
+  /* 滑鼠移上去顯示禁止符號 */
 }
 
 
-.TopicBox{
+.TopicBox {
   border: none;
   background: transparent;
   color: $neutral-400;
@@ -78,8 +81,14 @@ a.btn.btn-topic.disabled {
   outline: none;
   font-weight: 700;
 }
+
 .TopicBox::placeholder {
   color: $neutral-400;
-  opacity: 1; 
+  opacity: 1;
   font-weight: 700;
+}
+
+.topicFocus:focus {
+  border-color: #CE8B41;
+  background-color: $accent-100;
 }

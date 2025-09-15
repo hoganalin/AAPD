@@ -21,22 +21,17 @@
 
 
 // 第六頁
-
-
 document.addEventListener("DOMContentLoaded", () => {
-  const toastEl = document.getElementById('postSuccessMsg')
-  if (toastEl) {
-    const toast = new bootstrap.Toast(toastEl)
-    toast.show()
+  // 檢查 URL 是否包含 ?post=success 參數
+  const urlParams = new URLSearchParams(window.location.search);
+  const postStatus = urlParams.get('post');
+
+  // 如果參數存在且為 success，才顯示 Toast
+  if (postStatus === 'success') {
+    const toastEl = document.getElementById('postSuccessMsg');
+    if (toastEl) {
+      const toast = new bootstrap.Toast(toastEl);
+      toast.show();
+    }
   }
-})
-
-var toastTrigger = document.getElementById('liveToastBtn')
-var toastLiveExample = document.getElementById('liveToast')
-if (toastTrigger) {
-  toastTrigger.addEventListener('click', function () {
-    var toast = new bootstrap.Toast(toastLiveExample)
-
-    toast.show()
-  })
-}
+});
